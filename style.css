@@ -23,7 +23,7 @@
         align-items: center;
     }
     .row{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .logo {
         width: 50px; 
@@ -49,10 +49,10 @@
     }
 
     #nav .items li{
-        margin-left:0px;
-        margin-right:0;
-        padding-left:0;
-        padding-right:0;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding-left:15px;
+        padding-right:15px;
     }
 
     .drop {
